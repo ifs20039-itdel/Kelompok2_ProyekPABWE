@@ -5,17 +5,13 @@ Repository ini untuk proyek Praktikum UTS PABWE
 Disusun dengan menggunakan HTML, CSS, Javascript, Bootstrap, dan menggunakan framework Reactjs
   
  <p align="left">Anggota Kelompok:</p>
- - 11S20004_Samuel Sibuea 
- - 11S20035_Michael Napitupulu
- - 11S20038_Valentina Siahaan
- - 11S20039_Ketrina Sulastri Siagian
- - 11S20051_Cheilint Siallagan
   
-  - 👀 I’m interested in **Java and Web Development**
+- 11S20004 – Samuel Sibuea 
 
-- 🌱 I’m currently learning **Spring Boot, Bootstrap, and Laravel**
+- 11S20035 – Michael Napitupulu
 
-- 📫 How to reach me **samuelsibuea82@gmail.com**
+- 11S20038 – Valentina Siahaan
 
-- 🔭 I’m currently working on [pabwe-itdel](https://github.com/ifs20004-itdel/pabwe-itdel)
-
+- 11S20039 – Ketrina Sulastri Siagian
+  
+- 11S20051 – Cheilint Siallagan
