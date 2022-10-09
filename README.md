@@ -15,3 +15,8 @@ Disusun dengan menggunakan HTML, CSS, Javascript, Bootstrap, dan menggunakan fra
 - 11S20039 – Ketrina Sulastri Siagian
   
 - 11S20051 – Cheilint Siallagan
+
+Agar dapat berkontribusi dalam proyek ini, dapat mengikuti langkah berikut:
+
+<h3 align = "left"> Forking Project </h3>
+Hal pertama yang dapat dilakukan adalah dengan melakukan 'forking pada proyek. Dapat dilakukan dengan mengklik ikon di bawah:
