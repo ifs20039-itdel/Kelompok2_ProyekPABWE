@@ -30,6 +30,7 @@ Selanjutnya, anda dapat melakukan cloning terhadap codenya, dengan mengkopi link
 ![image](https://user-images.githubusercontent.com/87352987/194809685-a8c540d0-d5c7-48a0-8011-b98f8ff60f76.png)
 
 Clone pada lokasi laptop yang menurut anda paling optimal.
+Setelahnya, untuk folder node_module, anda harus mendownloadnya pada lokal masing-masing
 
-Setelahnya, anda bebas mengedit file di dalamnya.
+Lalu anda bebas mengedit file di dalamnya.
 
