@@ -13,7 +13,7 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Navbar.Brand href='#home'>
-            <img src={logo_Del} alt="logo Del" width="65" height="65" class="d-inline-block  " />
+            <img src={logo_Del} alt="logo Del" width="65" height="65" class="d-inline-block" />
             </Navbar.Brand>
             <Navbar.Brand id="letter-space" href='#home' className="text-light py-3">
                 Sarjana Informatika  
@@ -28,7 +28,7 @@ function BasicExample() {
                 <Dropdown.Toggle variant="primary" id="dropdown-basic">
                     Tentang Kita
                 </Dropdown.Toggle>
-                <Dropdown.Menu>
+                <Dropdown.Menu >
                     <NavDropdown.Item href="#/action-1">Visi Misi</NavDropdown.Item>
                     <NavDropdown.Item href="#/action-2">Staff Dosen</NavDropdown.Item>
                     <NavDropdown.Item href="#/action-3">Struktur Organisasi</NavDropdown.Item>

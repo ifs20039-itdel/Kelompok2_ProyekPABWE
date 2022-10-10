@@ -6,7 +6,7 @@ import img3 from '../Assets/img3.jpg'
 function IndividualIntervalsExample() {
   return (
     <Carousel>
-      <Carousel.Item interval={1000} style={{height: '550px'}}>
+      <Carousel.Item interval={1500} style={{height: '550px'}}>
         <img
           className=" w-100 h-100"
           src={img1}
@@ -17,7 +17,7 @@ function IndividualIntervalsExample() {
           <p>PT. Tanoto Group di Institut Teknologi Del.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={500} style={{height: '550px'}}>
+      <Carousel.Item interval={1500} style={{height: '550px'}}>
         <img
           className=" w-100"
           src={img2}
@@ -28,7 +28,7 @@ function IndividualIntervalsExample() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item style={{height: '550px'}}>
+      <Carousel.Item interval={2000} style={{height: '550px'}}>
         <img
           className="w-100"
           src={img3}

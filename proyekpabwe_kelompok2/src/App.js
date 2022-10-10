@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavbarComp from './components/NavbarComp'
 import Carousel from './components/Carousel'
+import Content from './components/Content'
 // import logo_Del from './Assets/logo_Del.png';
 
 
@@ -10,9 +11,7 @@ function App(){
     <div className="App">
       <NavbarComp/>
       <Carousel/>
-      <div >
-        <h3 class="head">TEXT</h3>
-      </div>
+      <Content/>
     </div>
   );
 }
