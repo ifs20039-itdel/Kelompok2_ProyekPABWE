@@ -1,13 +1,14 @@
 import react from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import NavbarComp from './components/NavbarComp'
 // import logo_Del from './Assets/logo_Del.png';
 
 
 function App(){
   return(
     <div className="App">
-
+      <NavbarComp/>
     </div>
   );
 }
