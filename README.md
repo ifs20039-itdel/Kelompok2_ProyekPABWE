@@ -20,3 +20,5 @@ Agar dapat berkontribusi dalam proyek ini, dapat mengikuti langkah berikut:
 
 <h3 align = "left"> Forking Project </h3>
 Hal pertama yang dapat dilakukan adalah dengan melakukan 'forking pada proyek. Dapat dilakukan dengan mengklik ikon di bawah:
+
+![image](https://user-images.githubusercontent.com/87352987/194809479-07543168-5a11-4aef-97af-f1cd07e2a574.png)
