@@ -47,67 +47,63 @@ function content(){
                 <h3 className='w-100'>Event Terkini</h3>
                 <a className='w-100 position text-end' >Lihat lebih banyak</a>
             </div>
-            <CardGroup className="container">
-            <Card data-aos = "flip-left" data-aos-duration = "1500" style={{ width: '18rem' }} className="container">
-                <Card.Img variant="top" src={coba} />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Lihat Selengkapnya</Button>
-                </Card.Body>
-            </Card>
-            <Card data-aos = "flip-left" data-aos-duration = "1500" style={{ width: '18rem' }} className="container">
-                <Card.Img variant="top" src={coba} />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Lihat Selengkapnya</Button>
-                </Card.Body>
-            </Card>
-            <Card data-aos = "flip-left" data-aos-duration = "1500" style={{ width: '18rem' }} className="container">
-                <Card.Img variant="top" src={coba} />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Lihat Selengkapnya</Button>
-                </Card.Body>
-            </Card>
-            <Card data-aos = "flip-left" data-aos-duration = "1500">
-            <Form className="p-3">
-                <h4 className='text-center py-2'>Follow News</h4>
-                <Form.Group className="mb-3" controlId="formBasicName">
-                    <Form.Label>Nama</Form.Label>
-                    <Form.Control type="text" placeholder="Masukkan Nama" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Alamat Email</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                    {/* <Form.Text className="text-muted" style={{fontSize:"12px",paddingLeft:"10px"}}>
-                        We'll never share your email with anyone else.
-                    </Form.Text> */}
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Pesan</Form.Label>
-                    <Form.Control type="textArea"/>
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
-                </Button>
-            </Form>
-            </Card>
-        
+            <CardGroup className="container py-3 ">
+                <Card data-aos = "flip-left" data-aos-duration = "1500" style={{ width: '18rem' }} className="container rounded-5">
+                    <Card.Img variant="top" src={coba} className="rounded-3 py-3" />
+                    <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Lihat Selengkapnya</Button>
+                    </Card.Body>
+                </Card>
+                <Card data-aos = "flip-left" data-aos-duration = "1500" style={{ width: '18rem' }} className="container rounded-5">
+                        <Card.Img variant="top" src={coba} className="rounded-3 py-3"/>
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                            </Card.Text>
+                            <Button variant="primary">Lihat Selengkapnya</Button>
+                        </Card.Body>
+                </Card>
+                <Card data-aos = "flip-left" data-aos-duration = "1500" style={{ width: '18rem' }} className="container rounded-5">
+                        <Card.Img variant="top" src={coba} className="rounded-3 py-3"/>
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                            </Card.Text>
+                            <Button variant="primary">Lihat Selengkapnya</Button>
+                        </Card.Body>
+                </Card>
+                <Card data-aos = "flip-left" data-aos-duration = "1500" className=" container rounded-5">
+                <Form className="p-3">
+                    <h4 className='text-center py-2'>Feedback</h4>
+                    <Form.Group className="mb-3" controlId="formBasicName">
+                        <Form.Label>Nama</Form.Label>
+                        <Form.Control type="text" placeholder="Masukkan nama" autoComplete='off'/>
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>Alamat Email</Form.Label>
+                        <Form.Control type="email" placeholder="Masukkan email" autoComplete='off' />
+                        {/* <Form.Text className="text-muted" style={{fontSize:"12px",paddingLeft:"10px"}}>
+                            We'll never share your email with anyone else.
+                        </Form.Text> */}
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicPassword">
+                        <Form.Label>Pesan</Form.Label>
+                        <Form.Control as="textarea" rows={3} />
+                    </Form.Group>
+                    <Button variant="primary" type="submit">
+                        Submit
+                    </Button>
+                </Form>
+                </Card>
             </CardGroup>
             </>
     );
