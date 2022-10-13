@@ -2,6 +2,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../Assets/tanoto.jpg'
 import img2 from '../Assets/img2.jpeg'
 import img3 from '../Assets/img3.jpg'
+import img4 from '../Assets/Pic4.png'
+import img5 from '../Assets/pic5.png'
 
 function IndividualIntervalsExample() {
   return (
@@ -35,10 +37,32 @@ function IndividualIntervalsExample() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Penandatanganan MoU dan PKS</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            IT Del dan PT Gramedia.
           </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={1500} style={{height: '550px'}}>
+        <img
+          className=" w-100 h-100"
+          src={img4}
+          alt="Forth slide"
+        />
+        <Carousel.Caption>
+          <h3>Launching white Paper Book</h3>
+          <p>Kerjasama IT Del dan Poltek SSN.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={1500} style={{height: '550px'}}>
+        <img
+          className=" w-100 h-100"
+          src={img5}
+          alt="Fifth slide"
+        />
+        <Carousel.Caption>
+          <h3>Kunjungan PT Riset Perkebunan Nusantara</h3>
+          <p> ke Kampus IT DEL dan KHDTK IT DEL.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
