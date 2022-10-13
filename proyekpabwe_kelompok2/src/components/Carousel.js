@@ -26,8 +26,8 @@ function IndividualIntervalsExample() {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Kunjungan GMR Varalakshmi Foundation India</h3>
+          <p> di Institut Teknologi Del.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2000} style={{height: '550px'}}>
@@ -51,7 +51,7 @@ function IndividualIntervalsExample() {
         />
         <Carousel.Caption>
           <h3>Launching white Paper Book</h3>
-          <p>Kerjasama IT Del dan Poltek SSN.</p>
+          <p> IT Del dan Poltek SSN.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={1500} style={{height: '550px'}}>
@@ -62,7 +62,7 @@ function IndividualIntervalsExample() {
         />
         <Carousel.Caption>
           <h3>Kunjungan PT Riset Perkebunan Nusantara</h3>
-          <p> ke Kampus IT DEL dan KHDTK IT DEL.</p>
+          <p> Kampus IT DEL dan KHDTK IT DEL.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
